@@ -11,9 +11,8 @@ init: false
 startup: application
 panel_icon: mdi:camera-wireless
 map: [config, media]
-host_network: false
+host_network: true
 options:
   eufy_security_ws_port: 3000
 schema:
   eufy_security_ws_port: port
-ports: { "63336/tcp": 63336, "63337/tcp": 63337, "63338/tcp": 63338 }
